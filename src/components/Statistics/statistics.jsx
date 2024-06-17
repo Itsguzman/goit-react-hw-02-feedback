@@ -9,7 +9,7 @@ export const Statistics = ({
   positivePercentage,
 }) => {
   return (
-    <div>
+    <div className={css.maindiv}>
       <p>
         Good:<span>{good}</span>
       </p>
